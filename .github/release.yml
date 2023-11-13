@@ -1,11 +1,16 @@
 changelog:
+  name-template: "v$NEXT_MINOR_VERSION 🦄"
+  tag-template: "v$NEXT_MINOR_VERSION"
   categories:
+    - title: 🚨 What's new?
     - title: 🏕 Features
       labels:
-        - '*'
-      exclude:
-        labels:
-          - dependencies
-    - title: 👒 Dependencies
+        - feat
+        - update
+    - title: 🐛 Bug Fixes
       labels:
-        - dependencies
+        - feat
+        - update
+    - title: 🦄 ETC
+      labels:
+        - "*"
