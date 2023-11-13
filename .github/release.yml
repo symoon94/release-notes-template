@@ -7,7 +7,7 @@ changelog:
     - title: 🐛 Bug Fixes
       labels:
         - Fix
-    - title: 🦄 ETC
+    - title:  ETC
       labels:
         - "*"
       exclude:
@@ -15,3 +15,11 @@ changelog:
         - Feat
         - Update
         - Fix
+  change-template: "- $TITLE (#$NUMBER)"
+  change-title-escapes: '\<*_&'
+  template: |
+    # Luna's Changelog
+
+    Breaking Changes
+
+    ---
